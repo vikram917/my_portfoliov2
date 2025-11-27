@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       drop.style.left = Math.random() * 100 + "%";
       drop.style.animationDuration = 0.6 + Math.random() * 0.6 + "s";
       drop.style.animationDelay = Math.random() * 3 + "s";
-      drop.style.opacity = 0.2 + Math.random() * 0.5;
+      drop.style.opacity = (0.2 + Math.random() * 0.5).toString();
 
       container.appendChild(drop);
     }
