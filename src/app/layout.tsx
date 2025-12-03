@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           <Header />
 
-<BacardiGlobal />
+{/* <BacardiGlobal /> */}
           <div className="min-h-screen relative z-10">
             {children}
           </div>
