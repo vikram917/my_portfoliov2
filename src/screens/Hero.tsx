@@ -94,7 +94,7 @@ export default function Hero() {
         {/* BUTTONS */}
         <div className="mt-8 flex gap-4">
           <a
-            href="/cv.pdf"
+            href="/resume/Vikram_Baghel.pdf"
             download
             className="
               px-6 py-3 rounded-lg font-medium
